@@ -49,11 +49,3 @@ class StandardScaler2:
     def fit_transform(self, data_to_fit_transform):
         self.fit(data_to_fit_transform)
         return self.transform(data_to_fit_transform)
-
-df2 = df[["fixed acidity", "volatile acidity"]]
-# sc2 = StandardScaler2()
-# print(sc2.fit_transform(df2))
-# print(sc2.params_)
-
-sc = StandardScaler()
-print(sc.fit_transform(df2))
