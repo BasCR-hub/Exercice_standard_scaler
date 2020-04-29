@@ -49,3 +49,5 @@ class StandardScaler2:
     def fit_transform(self, data_to_fit_transform):
         self.fit(data_to_fit_transform)
         return self.transform(data_to_fit_transform)
+
+#testignore
